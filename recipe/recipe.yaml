@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.3.0"
+  version: "0.5.0"
 
 package:
   name: wire-pipe
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/w/wire-pipe/wire_pipe-${{ version }}.tar.gz
-    sha256: aa7bba4820c9cbaf7c9a07ebd0fb27f5c837be4da6a1fe645ca08b1ce60a5e02
+    sha256: 7b6290b99ff26f7cca8f041ccf7029b83be9f9fe238f6763f173f7790e0198ec
 
 build:
   number: 0
