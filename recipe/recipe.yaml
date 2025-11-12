@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.6.1"
+  version: "0.7.0"
 
 package:
   name: wire-pipe
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/w/wire-pipe/wire_pipe-${{ version }}.tar.gz
-    sha256: 3151416be354a12c6cf90158924acbcbb8a93a685ecd642602cbd91ab76b2d7e
+    sha256: 51eede8bb6a3d82be5080726fff86f7b3a75dd90238e3bd1835dac2e6753a2ca
 
 build:
   number: 0
@@ -25,7 +25,7 @@ requirements:
     - uv-build
   run:
     - python >=${{ python_min }}
-    - wiredb >=0.6.0,<0.7.0
+    - wiredb >=0.7.0,<0.8.0
 
 tests:
   - python:
